@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Version Control System</title>
+    <link rel="stylesheet" href="baju.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <h1 class="main-title">Version Control System</h1>
+            <p class="sub-title">Pemrograman Internet</p>
+            <p class="sub-title">Pendidikan Sistem dan Teknologi Informasi</p>
+        </div>
+    </header>
+
+    <!-- NAVIGASI -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#pengertian">Pengertian</a></li>
+            <li><a href="#jenis">Jenis-Jenis</a></li>
+            <li><a href="#git">Git</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#perintah">Perintah Dasar</a></li>
+        </ul>
+    </nav>
+
+    <!-- KONTEN UTAMA -->
+    <main>
+        <!-- Materi 1: Pengertian -->
+        <section id="pengertian" class="content-section">
+            <h2 class="section-title">Version Control System</h2>
+            <div class="section-content">
+                Sistem yang mengelola perubahan dari sebuah dokumen program komputer, website dan kumpulan informasi lain. Karena sistem ini merekam perubahan yang terjadi pada sebuah dokumen atau sekumpulan dokumen dari waktu ke waktu maka dimungkinkan untuk kembali ke versi tertentu di kemudian hari.
+            </div>
+        </section>
+
+        <!-- Materi 2: Jenis-Jenis -->
+        <section id="jenis" class="content-section">
+            <h2 class="section-title">Jenis-Jenis Version Control System</h2>
+            
+            <div class="sub-section">
+                <h3 class="sub-title-section">Local Version Control System</h3>
+                <div class="section-content">
+                    Metode version-control yang digunakan oleh banyak orang adalah menyalin dokumen ke folder lain. Local VCSs yang memiliki sebuah database sederhana yang menyimpan seluruh perubahan terhadap dokumen dalam revision control.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Centralized Version Control System</h3>
+                <div class="section-content">
+                    Sistem ini memiliki sebuah server tunggal yang berisi seluruh versi dari dokumen, dan sejumlah orang yang mengunduh dokumen dari tersebut. Kelebihan: semua orang tahu hingga batas tertentu apa yang orang lain lakukan dalam proyek. Kekurangan: Jika server mati maka tidak bisa berkolaborasi.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Distributed Version Control System (DVCS)</h3>
+                <div class="section-content">
+                    Dalam DVCS (seperti Git, Mercurial, atau Darcs), klien tidak hanya mengunduh salinan terbaru dari dokumen; melainkan, menyalin seluruh repositori, termasuk riwayat lengkapnya.
+                </div>
+            </div>
+        </section>
+
+        <!-- Materi 3: Git -->
+        <section id="git" class="content-section">
+            <h2 class="section-title">Git</h2>
+            <div class="section-content">
+                Git adalah distributed version control software system yang mampu menangani perubahan dari source code atau data.<br><br>
+                <strong>1. modified</strong> artinya berkas telah diubah namun belum men-commit-nya ke database.<br>
+                <strong>2. staging</strong> artinya file yang diubah pada versi saat ini telah ditandai untuk direkam pada commit selanjutnya.<br>
+                <strong>3. committed</strong> artinya data telah secara aman disimpan di lokal database.
+            </div>
+        </section>
+
+        <!-- Materi 4: GitHub -->
+        <section id="github" class="content-section">
+            <h2 class="section-title">Github</h2>
+            <div class="section-content">
+                Github adalah sebuah platform yang memungkinkan developer untuk membuat, menyimpan, mengatur serta membagikan kode yang dibuat. Github menggunakan git untuk menyediakan distributed version control dan github sendiri menyediakan kontrol akses, tracking bug, software feature request, task management, continues integration serta wikis untuk setiap proyeknya.
+            </div>
+        </section>
+
+        <!-- Materi 5: Perintah Dasar Git -->
+        <section id="perintah" class="content-section">
+            <h2 class="section-title">Perintah Dasar pada Git</h2>
+            
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Init</h3>
+                <div class="section-content">
+                    Berfungsi untuk membuat repository kosong yang baru atau mengubah folder yang telah ada menjadi sebuah git repository.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Add</h3>
+                <div class="section-content">
+                    Berfungsi untuk menambahkan dan mendata perubahan yang terjadi ke staging area, perubahan-perubahan yang sudah di-add inilah yang nantinya direkam pada saat commit dilakukan.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Restore</h3>
+                <div class="section-content">
+                    Git restore digunakan untuk menghapus perubahan yang telah dilakukan. git restore .
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Commit</h3>
+                <div class="section-content">
+                    Berfungsi untuk menyimpan seluruh perubahan yang ada pada staging area.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Log</h3>
+                <div class="section-content">
+                    Digunakan untuk menampilkan daftar commit yang telah dilakukan pada repository.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Checkout</h3>
+                <div class="section-content">
+                    Berfungsi untuk beralih ke branch atau commit tertentu. Untuk beralih ke branch tertentu gunakan perintah. Untuk beralih ke commit tertentu gunakan perintah.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Branch</h3>
+                <div class="section-content">
+                    Perintah untuk melihat branch yang ada pada repository. Untuk membuat branch baru dapat menggunakan perintah.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Merge</h3>
+                <div class="section-content">
+                    Digunakan untuk menggabungkan branch, dapat dilakukan dengan perintah.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Push</h3>
+                <div class="section-content">
+                    Berfungsi untuk mengirim perubahan berupa commit yang dilakukan ke remote repository.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Pull</h3>
+                <div class="section-content">
+                    Fungsinya adalah untuk mengambil perubahan dari remote repository dan biasanya digunakan untuk menggabungkan perubahan dari remote repository ke dalam repository lokal.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Fetch</h3>
+                <div class="section-content">
+                    Perintah ini hanya mengambil perubahan dari remote repository tanpa menggabungkannya.
+                </div>
+            </div>
+
+            <div class="sub-section">
+                <h3 class="sub-title-section">Git Clone</h3>
+                <div class="section-content">
+                    Berfungsi untuk menyalin remote repository milik pribadi maupun milik orang lain (selama repository yang dimaksud public) ke komputer yang menjalankan perintah tersebut dan akan tersimpan secara lokal.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Syifa Awalia (2407218)</p>
+    </footer>
+</body>
+</html>

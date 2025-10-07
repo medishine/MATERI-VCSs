@@ -1,0 +1,151 @@
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* HEADER - Bagian atas */
+header {
+    background-color: maroon;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+/* NAVIGASI */
+nav {
+    background-color: #d2b48c; /* Krem */
+    padding: 15px 0;
+    margin-top: 150px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color:maroon;
+    color: white;
+}
+
+/* MATERI INTI */
+main {
+    margin-top: 220px;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Kotak materi */
+.content-section {
+    background-color: #f8e9d9; /* Krem */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+.content-section:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.content-section:hover .section-title {
+    color: white;
+}
+
+.section-content {
+    font-size: 14px;
+    color: black;
+    line-height: 1.6;
+}
+
+.content-section:hover .section-content {
+    color: white;
+}
+
+/* Sub judul dalam materi */
+.sub-section {
+    margin-bottom: 15px;
+}
+
+.sub-title-section {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.content-section:hover .sub-title-section {
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Untuk teks tebal */
+strong {
+    font-weight: bold;
+}
+
+/* Agar scroll halus */
+html {
+    scroll-behavior: smooth;
+}
